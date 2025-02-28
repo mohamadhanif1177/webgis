@@ -48,7 +48,7 @@ lyr_MERGEPA_1.set('fieldAliases', {'FID': 'FID', 'no_lot': 'no_lot', 'area': 'ar
 lyr_MERGETANDASEMPADAN_2.set('fieldAliases', {'Layer': 'Layer', 'PaperSpace': 'PaperSpace', 'SubClasses': 'SubClasses', 'Linetype': 'Linetype', 'EntityHand': 'EntityHand', 'Text': 'Text', 'vertex_ind': 'vertex_ind', 'vertex_par': 'vertex_par', 'vertex_p_1': 'vertex_p_1', 'distance': 'distance', 'angle': 'angle', 'path': 'path', });
 lyr_MERGEPA_1.set('fieldImages', {'FID': '', 'no_lot': '', 'area': '', 'tsp — hakm': '', 'tsp — ha_1': '', 'tsp — pemi': '', 'layer': '', 'path': '', });
 lyr_MERGETANDASEMPADAN_2.set('fieldImages', {'Layer': '', 'PaperSpace': '', 'SubClasses': '', 'Linetype': '', 'EntityHand': '', 'Text': '', 'vertex_ind': '', 'vertex_par': '', 'vertex_p_1': '', 'distance': '', 'angle': '', 'path': '', });
-lyr_MERGEPA_1.set('fieldLabels', {'FID': 'no label', 'no_lot': 'no label', 'area': 'no label', 'tsp — hakm': 'no label', 'tsp — ha_1': 'no label', 'tsp — pemi': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_MERGEPA_1.set('fieldLabels', {'FID': 'hidden field', 'no_lot': 'header label - visible with data', 'area': 'header label - visible with data', 'tsp — hakm': 'no label', 'tsp — ha_1': 'no label', 'tsp — pemi': 'no label', 'layer': 'hidden field', 'path': 'hidden field', });
 lyr_MERGETANDASEMPADAN_2.set('fieldLabels', {'Layer': 'no label', 'PaperSpace': 'no label', 'SubClasses': 'no label', 'Linetype': 'no label', 'EntityHand': 'no label', 'Text': 'no label', 'vertex_ind': 'no label', 'vertex_par': 'no label', 'vertex_p_1': 'no label', 'distance': 'no label', 'angle': 'no label', 'path': 'no label', });
 lyr_MERGETANDASEMPADAN_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
